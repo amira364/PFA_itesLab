@@ -63,11 +63,12 @@ class DashboardPage extends React.Component {
 
     return (
       <Page
-        className="DashboardPage"
-        title="Dashboard"
-        breadcrumbs={[{ name: 'Dashboard', active: true }]}
+        // className="DashboardPage"
+        // title="Dashboard"
+        // breadcrumbs={[{ name: 'Dashboard', active: true }]}
       >
-        <Row>
+
+        {/* <Row>
           <Col lg={3} md={6} sm={6} xs={12}>
             <NumberWidget
               title="Total Profit"
@@ -79,7 +80,7 @@ class DashboardPage extends React.Component {
                 label: 'Last month',
               }}
             />
-          </Col>
+          </Col> 
 
           <Col lg={3} md={6} sm={6} xs={12}>
             <NumberWidget
@@ -120,8 +121,8 @@ class DashboardPage extends React.Component {
             />
           </Col>
         </Row>
-
-        <Row>
+*/}
+        {/* <Row>
           <Col lg="8" md="12" sm="12" xs="12">
             <Card>
               <CardHeader>
@@ -160,9 +161,9 @@ class DashboardPage extends React.Component {
               </ListGroup>
             </Card>
           </Col>
-        </Row>
+        </Row> */}
 
-        <CardGroup style={{ marginBottom: '1rem' }}>
+        {/* <CardGroup style={{ marginBottom: '1rem' }}>
           <IconWidget
             bgColor="white"
             inverse={false}
@@ -184,9 +185,9 @@ class DashboardPage extends React.Component {
             title="30+ Shares"
             subtitle="New Shares"
           />
-        </CardGroup>
+        </CardGroup> */}
 
-        <Row>
+        {/* <Row>
           <Col md="6" sm="12" xs="12">
             <Card>
               <CardHeader>New Products</CardHeader>
@@ -223,9 +224,9 @@ class DashboardPage extends React.Component {
               </CardBody>
             </Card>
           </Col>
-        </Row>
+        </Row> */}
 
-        <Row>
+        {/* <Row>
           <Col lg={4} md={4} sm={12} xs={12}>
             <Card>
               <Line
@@ -308,9 +309,9 @@ class DashboardPage extends React.Component {
               </CardBody>
             </Card>
           </Col>
-        </Row>
+        </Row> */}
 
-        <Row>
+        {/* <Row>
           <Col lg="4" md="12" sm="12" xs="12">
             <InfiniteCalendar
               selected={today}
@@ -348,14 +349,14 @@ class DashboardPage extends React.Component {
         </Row>
 
         <CardDeck style={{ marginBottom: '1rem' }}>
-          <Card body style={{ overflowX: 'auto','paddingBottom':'15px','height': 'fit-content','paddingTop': 'inherit'}}>
+          <Card body style={{ overflowX: 'auto', 'paddingBottom': '15px', 'height': 'fit-content', 'paddingTop': 'inherit' }}>
             <HorizontalAvatarList
               avatars={avatarsData}
               avatarProps={{ size: 50 }}
             />
           </Card>
 
-          <Card body style={{ overflowX: 'auto','paddingBottom':'15px','height': 'fit-content','paddingTop': 'inherit'}}>
+          <Card body style={{ overflowX: 'auto', 'paddingBottom': '15px', 'height': 'fit-content', 'paddingTop': 'inherit' }}>
             <HorizontalAvatarList
               avatars={avatarsData}
               avatarProps={{ size: 50 }}
@@ -401,7 +402,7 @@ class DashboardPage extends React.Component {
           <Col lg="4" md="12" sm="12" xs="12">
             <TodosCard todos={todosData} />
           </Col>
-        </Row>
+        </Row> */}
       </Page>
     );
   }
